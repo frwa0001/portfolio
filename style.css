@@ -1,0 +1,355 @@
+/* ========== RESET ========== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== MENU ========== */
+
+/* TYPOGRAFI */
+
+h3 {
+  font-family: poppins, serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #8f882c;
+  margin-left: 50px;
+}
+
+.links a {
+  text-decoration: none;
+  font-family: poppins, serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #3d2112;
+}
+
+/* NAVIGATION */
+
+.menu {
+  display: flex;
+  background-color: #b1e4da;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  margin-left: 50rem;
+  gap: 4rem;
+  margin-top: 10px;
+}
+
+/* ========== FORSIDE (SIDE1) ========== */
+
+/* TYPOGRAFI */
+
+h1 {
+  font-family: poppins, serif;
+  font-size: 10rem;
+  color: #8f882c;
+  font-weight: 800;
+  margin-left: 50px;
+}
+
+h2 {
+  font-family: antonio, serif;
+  font-size: 4rem;
+  color: #ffefe2;
+  font-weight: 200;
+  margin-left: 50px;
+}
+
+.side1 h3 {
+  color: #b1e4da;
+}
+
+p {
+  font-family: inter, serif;
+  font-size: 1.1rem;
+  color: #ffefe2;
+  margin-left: 50px;
+}
+
+/* ========== OM MIG (SIDE2) ========== */
+
+/* TYPOGRAFI */
+
+.side2 h1 {
+  font-family: antonio, serif;
+  font-size: 4rem;
+  color: #ffefe2;
+  font-weight: 200;
+  margin-left: 50px;
+}
+
+.side2 h4 {
+  font-family: poppins, serif;
+  font-size: 1.2rem;
+  color: #8f882c;
+  font-weight: 800;
+  margin-left: 50px;
+}
+
+.side2 h5 {
+  font-family: antonio, serif;
+  font-size: 2rem;
+  color: #436573;
+  font-weight: 200;
+  border-color: #436573;
+  border: 3px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side2 p {
+  font-family: inter, serif;
+  font-size: 1.1rem;
+  color: #ffefe2;
+  margin-left: 50px;
+}
+
+.papir p {
+  color: #3d2112;
+}
+
+.box3-2-1 h4,
+.box3-2-2 h4 {
+  color: #8f882c;
+  font-weight: 800;
+}
+
+/* ========== PROJEKTER (SIDE3) ========== */
+
+/* BAGGRUND */
+
+.side3 {
+  background-color: #ffefe2;
+}
+
+/*TYPOGRAFI*/
+
+.side3 h1 {
+  font-family: antonio, serif;
+  font-size: 4rem;
+  color: #3d2112;
+  font-weight: 200;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.side3 p {
+  font-family: inter, serif;
+  font-size: 1.1rem;
+  color: #ffefe2;
+  margin-left: 50px;
+}
+
+/*NAVIGATION*/
+
+.temaer a {
+  text-decoration: none;
+  font-family: poppins, serif;
+  font-size: 1.4rem;
+  color: #436573;
+  font-weight: 800;
+  border: 3px solid;
+}
+
+/* ========== TEMAER (SIDE4,5,6 OG 7) ========== */
+
+/* BAGGRUND */
+
+.side4-5-6-7 {
+  background-color: #ffefe2;
+}
+
+/*TYPOGRAFI*/
+
+.side4-5-6-7 h2 {
+  font-family: antonio, serif;
+  font-size: 4rem;
+  color: #3d2112;
+  font-weight: 200;
+  margin-left: 50px;
+}
+
+.side4-5-6-7 h4 {
+  font-family: poppins, serif;
+  font-size: 1.2rem;
+  color: #8f882c;
+  font-weight: 800;
+  margin-left: 50px;
+}
+
+.side4-5-6-7 p {
+  font-family: inter, serif;
+  font-size: 1.1rem;
+  color: #3d2112;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/*NAVIGATION*/
+
+.tilbage,
+.box5 a {
+  text-decoration: none;
+  font-family: poppins, serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  background-color: #3d2112;
+  color: #ffefe2;
+}
+
+/* ========== FOOTER ========== */
+
+/* TYPOGRAFI */
+
+.footer h3 {
+  font-family: poppins, serif;
+  font-size: 1.2rem;
+  color: #8f882c;
+  margin-left: 50px;
+}
+
+.footer p,
+.footer a {
+  font-family: inter, serif;
+  font-size: 1.1rem;
+  color: #ffefe2;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  /* ========== MENU ========== */
+
+  /* TYPOGRAFI */
+
+  h3 {
+    font-size: 2rem;
+    margin-left: 100px;
+  }
+
+  /* ========== FORSIDE (SIDE1) ========== */
+
+  /* TYPOGRAFI */
+
+  h1 {
+    font-size: 4rem;
+    margin-left: 30px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-left: 30px;
+    margin-top: 380px;
+    position: absolute;
+  }
+
+  .side1 h3 {
+    color: #b1e4da;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-top: 420px;
+    position: absolute;
+  }
+
+  /* ========== OM MIG (SIDE2) ========== */
+
+  /* TYPOGRAFI */
+
+  .side2 h1 {
+    font-size: 2rem;
+    margin-left: 30px;
+  }
+
+  .side2 h4 {
+    font-size: 1.1rem;
+    margin-left: 30px;
+  }
+
+  .side2 h5 {
+    font-size: 2rem;
+  }
+
+  .side2 p {
+    font-size: 1rem;
+    margin-left: 30px;
+  }
+
+  /* ========== PROJEKTER (SIDE3) ========== */
+
+  /*TYPOGRAFI*/
+
+  .side3 h1 {
+    font-size: 2rem;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+
+  /*NAVIGATION*/
+
+  .temaer a {
+    text-decoration: none;
+    font-family: poppins, serif;
+    font-size: 1.1rem;
+    color: #436573;
+    background-color: #ffefe2;
+    font-weight: 800;
+    border: 3px solid;
+  }
+
+  /* ========== TEMAER (SIDE4,5,6 OG 7) ========== */
+
+  /*TYPOGRAFI*/
+
+  .side4-5-6-7 h2 {
+    font-size: 2rem;
+    margin-left: 30px;
+  }
+
+  .side4-5-6-7 h4 {
+    font-size: 1.1rem;
+    margin-left: 30px;
+  }
+
+  .side4-5-6-7 p {
+    font-size: 1rem;
+    margin-left: 30px;
+  }
+
+  /*NAVIGATION*/
+
+  .tilbage,
+  .box5 a {
+    font-size: 1.1rem;
+  }
+
+  /* ========== FOOTER ========== */
+
+  /* TYPOGRAFI */
+
+  .footer h3 {
+    font-size: 1.1rem;
+    margin-left: 30px;
+  }
+
+  .footer p {
+    font-size: 1rem;
+    background-color: #3d2112;
+    width: 100%;
+    margin: 0;
+    padding-left: 30px;
+  }
+
+  .footer a {
+    font-size: 1rem;
+  }
+}
