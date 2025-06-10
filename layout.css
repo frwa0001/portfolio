@@ -1,0 +1,541 @@
+/* ========== RESET ========== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== FORSIDE (side1) ========== */
+
+/* BAGGRUNDSFARVE, BILLEDE OG FIRKANT */
+
+.side1 {
+  background-color: #b1e4da;
+  background-image: url(img/mig_forside.webp);
+  background-repeat: no-repeat;
+  background-position: 70rem 11rem;
+  background-size: 28%;
+}
+
+.firkant {
+  width: 800px;
+  height: 448px;
+  background-color: #3d2112;
+  margin-top: -110px;
+}
+
+/* ========== OM MIG (side2) ========== */
+
+/* BAGGRUNDSFARVE, BILLEDE OG GRID */
+
+.side2 {
+  background-color: #3d2112;
+}
+
+.om_mig {
+  background-image: url(img/baggrund.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* TEKSTBOKSE */
+
+.box2 {
+  margin-top: 100px;
+}
+
+.box3 {
+  margin-top: 100px;
+  width: 500px;
+}
+
+/* SVG-ELEMENT SOM BAGGRUND */
+
+.papir {
+  background-image: url(img/papir.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 62%;
+  height: 678px;
+}
+
+/* TEKSTPLACERING PÅ SVG-ELEMENT */
+
+.papir h4 {
+  margin-left: 200px;
+}
+
+.papir p {
+  margin-left: 200px;
+}
+
+.box3-1 {
+  width: 400px;
+}
+
+.box3-1 p {
+  margin-bottom: 10px;
+}
+
+.box3-2-1 h4 {
+  margin-top: 20px;
+}
+
+.box3-2-2 h4 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.side2 h5 {
+  width: 70px;
+  height: 70px;
+}
+
+/* BILLEDE OG SVG */
+
+.mig {
+  width: 170px;
+  margin-left: 414px;
+  position: absolute;
+  margin-top: 0px;
+}
+
+.disko {
+  position: absolute;
+  width: 200px;
+  margin-top: 420px;
+  margin-left: 740px;
+}
+
+/* GRIDLAYOUT STOR OG LILLE BOX */
+
+.box3-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.minibox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/* ========== PROJEKTER (side3) ========== */
+
+/* GRIDLAYOUT */
+
+.projekter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* KNAPPER */
+
+.temaer a {
+  margin-left: 50px;
+  width: 600px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+
+/* BILLEDE OG BOX */
+
+.taske {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  height: 850px;
+}
+
+.box4 {
+  height: 680px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-left: -100px;
+}
+
+/* ========== TEMAER (side4,5,6 og 7) ========== */
+
+/* KNAPPER */
+
+.tilbage {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.box5 a {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-left: 450px;
+}
+
+/* MARGIN PÅ TEKST */
+
+.box6 p {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.box6 h4 {
+  margin-left: 100px;
+}
+
+.box7 p {
+  margin-right: 200px;
+}
+
+/* BILLEDER */
+
+.web1,
+.uxui1,
+.animation1,
+.indhold1 {
+  height: 400px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.web2,
+.uxui2,
+.animation2,
+.indhold2 {
+  height: 400px;
+  margin-top: -100px;
+  margin-left: -40px;
+}
+
+/* GRIDLAYOUT */
+
+.box5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box6 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.box7 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 100px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #3d2112;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  /* BURGERMENU */
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+    margin-left: -300px;
+    margin-top: 10px;
+    cursor: pointer;
+    z-index: 20;
+  }
+
+  .burger .line {
+    position: relative;
+    z-index: 10;
+    height: 6px;
+    background-color: #3d2112;
+    width: 50px;
+    transition: 0.2s linear;
+  }
+
+  .links {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 45px;
+    padding: 30px;
+    background-color: #b1e4da;
+    z-index: 1000;
+  }
+
+  .links.active {
+    display: flex;
+  }
+
+  .menu {
+    align-items: flex-start;
+  }
+
+  /* ========== FORSIDE (side1) ========== */
+
+  /* BAGGRUNDSFARVE, BILLEDE OG FIRKANT */
+
+  .side1 {
+    background-color: #b1e4da;
+    background-image: url(img/mig_forside.webp);
+    background-repeat: no-repeat;
+    background-position: 250px 208px;
+    background-size: 50%;
+  }
+
+  .firkant {
+    width: 498px;
+    height: 200px;
+    background-color: #3d2112;
+    margin-top: 380px;
+  }
+
+  /* ========== OM MIG (side2) ========== */
+
+  /* BAGGRUNDSFARVE, BILLEDE OG GRID */
+
+  .side2 {
+    background-color: #3d2112;
+  }
+
+  .om_mig {
+    background-image: url(img/baggrund.webp);
+    background-size: 300%;
+  }
+
+  /* TEKSTBOKSE */
+
+  .box2 {
+    margin-top: 50px;
+    width: 450px;
+  }
+
+  .box2 p {
+    margin-top: 10px;
+    position: relative;
+  }
+
+  /* SVG-ELEMENT SOM BAGGRUND */
+
+  .papir {
+    background-image: url(img/papir.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin-left: -450px;
+    margin-top: 300px;
+  }
+
+  /* TEKSTPLACERING PÅ SVG-ELEMENT */
+
+  .papir h4 {
+    margin-top: 130px;
+    margin-left: 80px;
+  }
+
+  .papir p {
+    margin-left: 80px;
+    margin-top: 0px;
+    position: relative;
+    gap: 20px;
+    width: 350px;
+  }
+
+  .box3-1 p {
+    margin-bottom: 10px;
+    width: 200px;
+  }
+
+  .box3-2-1 h4 {
+    margin-top: 20px;
+  }
+
+  .box3-2-1 p {
+    width: 130px;
+  }
+
+  .box3-2-2 h4 {
+    margin-left: -10px;
+    margin-top: 0px;
+  }
+
+  /* BILLEDE OG SVG */
+
+  .mig {
+    width: 140px;
+    margin-left: 290px;
+    margin-top: 50px;
+  }
+
+  .disko {
+    width: 100px;
+    margin-top: 360px;
+    margin-left: 330px;
+  }
+
+  /* GRIDLAYOUT STOR OG LILLE BOX */
+
+  .minibox {
+    margin-right: 100px;
+    margin-left: -10px;
+  }
+
+  /* ========== PROJEKTER (side3) ========== */
+
+  /* KNAPPER */
+
+  .temaer a {
+    margin-left: 30px;
+    width: 400px;
+    padding-left: 30px;
+    z-index: 2;
+    position: relative;
+  }
+
+  /* BILLEDE OG BOX */
+
+  .projekter {
+    display: block;
+    max-height: 630px;
+  }
+
+  .taske {
+    width: 100%;
+    height: 100%;
+  }
+
+  .box4 {
+    position: relative;
+    margin-top: -400px;
+    width: 700px;
+    margin-left: -120px;
+    z-index: 1;
+  }
+
+  /* ========== TEMAER (side4,5,6 og 7) ========== */
+
+  /* KNAPPER */
+
+  .tilbage {
+    margin-left: 30px;
+    position: relative;
+  }
+
+  .box5 a {
+    margin-top: -80px;
+    margin-left: 340px;
+    width: 130px;
+    height: 50px;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  /* COLUMNSLAYOUT */
+
+  .tema {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .box5 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .box6 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .box7 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .box5 h2 {
+    margin-top: 0;
+    position: relative;
+  }
+
+  .box5 p {
+    margin-top: 0;
+    position: relative;
+  }
+
+  .box6 h4 {
+    margin-top: 0;
+    position: relative;
+    margin-left: 30px;
+  }
+
+  .box6 p {
+    margin-top: 0;
+    position: relative;
+    margin-left: 30px;
+    width: 420px;
+  }
+
+  .box7 h4 {
+    margin-top: 400px;
+    position: relative;
+  }
+
+  .box7 p {
+    margin-top: 0;
+    position: relative;
+    width: 420px;
+  }
+
+  /* BILLEDER */
+
+  .web1,
+  .uxui1,
+  .animation1,
+  .indhold1 {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  .web2,
+  .uxui2,
+  .animation2,
+  .indhold2 {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  /* ========== FOOTER ========== */
+
+  .footer {
+    background-color: #3d2112;
+    position: relative;
+    z-index: 3;
+  }
+}
