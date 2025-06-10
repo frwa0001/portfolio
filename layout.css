@@ -102,6 +102,15 @@
   margin-left: 414px;
   position: absolute;
   margin-top: 0px;
+  display: inline-block;
+  transform: rotate(-10deg);
+  animation: rotate 5s forwards;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 .disko {
@@ -109,6 +118,12 @@
   width: 200px;
   margin-top: 420px;
   margin-left: 740px;
+}
+
+.disko:hover {
+  display: inline-block;
+  transform: rotate(-360deg);
+  animation: rotate 2s forwards;
 }
 
 /* GRIDLAYOUT STOR OG LILLE BOX */
@@ -153,6 +168,15 @@
   margin-top: 100px;
   margin-bottom: 50px;
   height: 850px;
+  display: inline-block;
+  transform: translateY(600px);
+  animation: slidein 2.5s forwards;
+}
+
+@keyframes slidein {
+  to {
+    transform: translateY(0);
+  }
 }
 
 .box4 {

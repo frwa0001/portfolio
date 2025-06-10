@@ -24,6 +24,12 @@ h3 {
   font-size: 1.2rem;
   font-weight: 800;
   color: #3d2112;
+  display: inline-block;
+}
+
+.links a:hover {
+  color: #8f882c;
+  transform: scale(1.2);
 }
 
 /* NAVIGATION */
@@ -51,6 +57,18 @@ h1 {
   color: #8f882c;
   font-weight: 800;
   margin-left: 50px;
+}
+
+.overskrift-slidein {
+  display: inline-block;
+  transform: translateX(-2000px);
+  animation: slidein 2s forwards;
+}
+
+@keyframes slidein {
+  to {
+    transform: translateY(0);
+  }
 }
 
 h2 {
@@ -158,6 +176,11 @@ p {
   border: 3px solid;
 }
 
+.temaer a:hover {
+  color: #8f882c;
+  transform: scale(1.1);
+}
+
 /* ========== TEMAER (SIDE4,5,6 OG 7) ========== */
 
 /* BAGGRUND */
@@ -202,6 +225,12 @@ p {
   font-weight: 800;
   background-color: #3d2112;
   color: #ffefe2;
+}
+
+.tilbage:hover,
+.box5 a:hover {
+  background-color: #8f882c;
+  transform: scale(1.1);
 }
 
 /* ========== FOOTER ========== */
